@@ -279,7 +279,7 @@ h1{
     color: white;
     text-decoration: none;
 }
-#datebutton{
+.datebutton{
 	padding-top:0%;
 	background-color:#b23362;
 	color:white;
