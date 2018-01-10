@@ -56,7 +56,7 @@ body
     background-color: #b23362;
     color: white;
 }
-#links{
+.links{
 	float:left;
 	width:10%;
 	height:10%;
@@ -75,7 +75,7 @@ h1{
 #homeTitle{
 	text-align:left;
 }
-#links{
+.links{
 	float:left;
 	width:2.5%;
 	height:2.5%;
