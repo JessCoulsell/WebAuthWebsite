@@ -161,3 +161,9 @@ function viewCart(){
 	document.getElementById("itemQuantity").innerHTML =localStorage.getItem("quantity");
 	
 }
+function dateDelete(){
+	localStorage.removeItem("tourdate");
+	localStorage.removeItem("concertLocation");
+	startClock();
+	location.reload();
+}
