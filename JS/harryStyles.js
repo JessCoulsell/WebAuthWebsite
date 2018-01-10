@@ -21,8 +21,12 @@ window.onload = function(){
 
 	
 	}
+	else{
+		startClock();
 	
 	}
+	}
+	
 	if (x.id == "cart"){
 		viewCart();
 	}
@@ -61,7 +65,7 @@ function ChosenDate(date,conLocation){
 	countDownDate = 0;
     buttonDate = date;
 	countDownDate = new Date(buttonDate).getTime();
-	
+	startClock();
 	document.getElementById("location").innerHTML = "You are going to see Harry Styles at " +concertLocation+" in";
 
     
@@ -70,7 +74,8 @@ function ChosenDate(date,conLocation){
 
 
 
-
+}
+function startClock(){
 var x = setInterval(function() {
 
   
@@ -96,6 +101,7 @@ var x = setInterval(function() {
   }
 }, 1000);
 }
+
 
 function shopImage(colour){
 	tColour = colour
