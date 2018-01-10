@@ -275,7 +275,7 @@ h1{
     display: table;
     clear: both;
 }
-#tickets{
+.tickets{
     color: white;
     text-decoration: none;
 }
