@@ -1,0 +1,438 @@
+#homeTitle{
+	width:100%;
+	
+	
+	
+	
+}
+
+h1{
+
+	font-size: 70px;
+	margin-top: 0;
+	margin-bottom:0;
+	padding-bottom:0.75%;
+	display:block;
+	
+	
+}
+body
+{
+	font-family: 'galano_grotesquemedium', sans-serif;
+	
+	
+	
+}
+
+
+.slide{
+	width:100%;
+	height:100%;
+	height:200px;
+
+}
+.mySlides{
+	height:100%;
+	width:100%;
+}
+#menuList{
+	float:left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:pink;
+}
+
+#menu a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+#menu a:hover {
+    background-color: #b23362;
+    color: white;
+}
+#links{
+	float:left;
+	width:10%;
+	height:10%;
+	padding:14px 10px;
+	padding-bottom:2px;
+}
+@media only screen and (min-width: 550px) {
+
+h1{
+
+	font-size: 53px;
+	margin-top: 0;
+	margin-bottom:0;
+	padding-bottom:0.75%
+}
+#homeTitle{
+	text-align:left;
+}
+#links{
+	float:left;
+	width:2.5%;
+	height:2.5%;
+	padding:14px 10px;
+	padding-bottom:2px;
+}
+#menuList{
+	display:inline;
+	float:none;
+	
+}
+#menu{
+	font-size:25px;
+	color:black;
+	list-style: none;
+	float:right;
+	padding-top:10px;
+	
+
+}
+
+#menu a:link, #menu a:visited {
+    background-color: pink;
+    color: white;
+    padding: 12px 20px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+#menu a:hover, #menu a:active {
+    background-color: #b23362;
+	color:white;
+}
+
+
+	
+}
+.slide{
+	width:100%;
+	height:500px;
+	
+}
+.mySlides{
+	height:100%;
+	width:100%;
+}
+
+
+.dropbtn {
+    background-color: pink;
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+
+	
+}
+@media only screen and (min-width: 550px) {
+.dropbtn{
+	padding: 35px;
+    font-size: 50px;
+}
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 13px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #b23362;
+}
+
+#Info{
+	font-size:20px;
+	padding-top:1%;
+	text-align:center;
+	background-image: url('../Assets/flowers1.jpg');
+	color:white;
+	
+	
+}
+.column {
+    float: left;
+    width: 50%;
+	text-align:center;
+	color:white;
+
+
+
+}
+.row{
+	background-image: url('../Assets/flowers1.jpg');
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (max-width: 600px) {
+
+
+.column {
+    width: 100%;
+}
+}
+#center{
+	text-align:center;
+	font-size:40px;
+}
+
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+	
+}
+.video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#space{
+	background-image: url('../Assets/flowers1.jpg');
+	height: 50px;
+	width: 100%;
+}
+#date{
+	background-image: url('../Assets/flowers1.jpg');
+	text-align:center;
+	padding-top:15%;
+	padding-bottom:15%;
+	font-size:60px;
+	height:30%;
+	width:100%;
+	
+}
+#tourdates{
+	padding-top:5.5%;
+	padding-bottom:3%;
+	text-align:center;
+	
+}
+.column1 {
+	
+    float: left;
+    width: 25%;
+	color:white;
+	font-weight: bold;
+
+	
+	
+}
+
+.row1{
+	background-image: url('../Assets/flowers1.jpg');
+	
+	
+}
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#tickets{
+    color: white;
+    text-decoration: none;
+}
+#datebutton{
+	padding-top:0%;
+	background-color:#b23362;
+	color:white;
+	text-align:center;
+
+}
+#tourtext p{
+	padding-top:0.6%;
+}
+#date{
+	color:white;
+}
+
+.whitetext{
+	color:white;
+}
+#customiser{
+background-image: url('../Assets/flowers1.jpg');
+width:100%;
+}
+
+.shopcolumn {
+    float: left;
+    width: 50%;
+}
+
+
+.shoprow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (max-width: 600px) {
+    .shopcolumn {
+        width: 100%;
+    }
+	#right{
+		width:100%;
+		padding-left:0%;
+		padding-right:0%;
+	}
+	#shopCustomiser{
+		width:100%;
+	}
+}
+#cover{
+	width:100%;
+	padding-top:5%;
+	padding-bottom:5%;
+	padding-left:5%;
+	padding-right:5%;
+}
+#shoptitle{
+	text-align:center;
+}
+#shopCustomiser{
+	background-color:white;
+	width:100%;
+	height:100%;
+	margin-bottom:5%;
+	margin-left:7%;
+	padding-left:5%;
+	padding-bottom:10%;
+}
+#right{
+	width:40%;
+	padding-top:1%;
+	
+
+}
+#white{
+	background-color:white;
+	padding-bottom:10%;
+	padding-top:10%;
+	padding-left:10%;
+	padding-right:10%;
+}
+#black{
+	background-color:black;
+	padding-bottom:10%;
+	padding-top:10%;
+	padding-left:10%;
+	padding-right:10%;
+}
+#grey{
+	background-color:grey;
+	padding-bottom:10%;
+	padding-top:10%;
+	padding-left:10%;
+	padding-right:10%;
+}
+#pink{
+	background-color:pink;
+	padding-bottom:10%;
+	padding-top:10%;
+	padding-left:10%;
+	padding-right:10%;
+}
+.sizeButton{
+	background-color:white;
+	padding-bottom:7%;
+	padding-top:7%;
+	padding-left:7%;
+	padding-right:7%;
+}
+#addToBag{
+	background-color:pink;
+}
+#viewCart:link,#viewCart:visited {
+    background-color:pink;
+    color: black;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+#viewCart:hover,#viewCart:active {
+    background-color: #b23362;
+}
+#countdownInfo{
+	font-size:25%;
+}
+
+@media only screen  and (min-width : 1824px) {
+	.slide{
+	width:100%;
+	height:100%;
+	height:1100px;
+
+}
+
+}
+#shoppingCart{
+	overflow-x:scroll;
+	
+}
+#itemPic{
+	width:300px;
+	height:300px;
+}
+.cell{
+	padding-right:30%;
+}
+#checkout:link, #checkout:visited {
+    background-color: #eb84ed;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+#checkout:hover, #checkout:active {
+    background-color:#b23362;
+}

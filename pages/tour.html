@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Harry Styles</title>
+<link rel="stylesheet" href="../css/css.css">
+<script src="../js/harryStyles.js"></script>
+</head>
+
+<body id = "tour">
+<header>
+
+	<nav>
+		<ul id="menuList">
+			<li id=menu>
+			<a href="../index.html">Home</a>
+			<a href="music.html">Music</a>
+			<a href="tour.html">Tour</a>
+			<a href="videos.html">Videos</a>
+			<a href="shop.html">Shop</a>
+			</li>
+		</ul>
+	</nav>
+
+</header>
+
+
+
+<div id=homeTitle>
+<section id="Home">
+<h1>Harry Styles</h1>
+</section>
+</div>
+<div id = "date">
+<h1 id = "location"> Next Concert is in</h1>
+<div id="clock">
+
+</div>
+<p id = "countdownInfo">Click save to see the countdown for the same concert next time</p>
+<button type = "button" onclick="save()" id = "datebutton">Save</button>
+
+</div>
+</div>
+<div>
+<p id ="demo"></p>
+<h1 id="tourdates">Upcoming Tour Dates</h1>
+</div>
+
+<div class="row1" id="tourdates">
+<h2 class=whitetext>If you already have tickets to see Harry Styles, click on the date below to change the count down above to that date.</h2>
+  <div class="column1">
+  <h2 id="columnHeader">Date</h2>
+  <p><button onclick="ChosenDate('Mar 11, 2018 19:00:00','ST JAKOBSHALLE')" id = "datebutton">MAR 11</button></p>
+  <p><button onclick="ChosenDate('Mar 13, 2018 19:00:00','ACCORHOTELS ARENA')" id = "datebutton">MAR 13</button></p>
+  <p><button onclick="ChosenDate('Mar 21, 2018 19:00:00','SPEKTRUM')" id = "datebutton">MAR 21</button></p>
+  <p><button onclick="ChosenDate('Apr 2, 2018 19:00:00','MEDIONLANUM FORUM')" id = "datebutton">APR 2</button></p>
+  <p><button onclick="ChosenDate('Apr 7, 2018 19:00:00','GENTING ARENA')" id = "datebutton">APR 7</button></p>
+  <p><button onclick="ChosenDate('Apr 9, 2018 19:00:00','MANCHESTER ARENA')" id = "datebutton">APR 9</button></p>
+  <p><button onclick="ChosenDate('Apr 11, 2018 19:00:00','THE O2')" id = "datebutton">APR 11</button></p>
+  <p><button onclick="ChosenDate('Apr 12, 2018 19:00:00','THE O2')" id = "datebutton">APR 12</button></p>
+  <p><button onclick="ChosenDate('Apr 14, 2018 19:00:00','THE SSE HYDRO')" id = "datebutton">APR 14</button></p>
+  <p><button onclick="ChosenDate('Apr 27, 2018 19:00:00','QUDOS BANK ARENA')" id = "datebutton">APR 27</button></p>
+  
+  </div>
+  <div class="column1" id ="tourtext">
+  <h2 id="columnHeader">Venue</h2>
+  <p>ST. JAKOBSHALLE</p>
+  <p>ACCORHOTELS ARENA</p>
+  <p>SPEKTRUM</p>
+  <p>MEDIONLANUM FORUM</p>
+  <p>GENTING ARENA</p>
+  <p>MANCHESTER ARENA</p>
+  <p>THE O2</p>
+  <p>THE O2</p>
+  <p>THE SSE HYDRO</p>
+  <p>QUDOS BANK ARENA</p>
+
+  </div>
+  <div class="column1" id ="tourtext">
+  <h2 id ="columnHeader">Location</h2>
+  <p>BASEL, SWITZERLAND</p>
+  <p>PARIS, FRANCE</p>
+  <p>OSLO, NORWAY</p>
+  <p>MILAN, ITALY</p>
+  <p>BIRMINGHAM, UNITED KINGDOM</p>
+  <p>MANCHESTER, UNITED KINGDOM</p>
+  <p>LONDON, UNITED KINGDOM</p>
+  <p>LONDON, UNITED KINGDOM</p>
+  <p>GLASGOW, UNITED KINGDOM</p>
+  <p>SYDNEY, AUSTRALIA</p>
+ 
+  </div>
+  <div class="column1" id ="tourtext">
+  <h2 id="columnHeader">Tickets</h2>
+  <p>
+  <a href="http://www.ticketcorner.ch/" id = "tickets">TICKETS</a>
+  </p>
+  <p>
+  <a href="https://www.livenation.fr/artist/harry-styles-tickets" id = "tickets">TICKETS</a>
+  </p>
+  <p>
+  <a href="https://www.ticketmaster.no/event/540251?zanpid=2383627780303959041" id = "tickets">TICKETS</a>
+  </p>
+  <p>
+  <a href="http://www.ticketone.it/harry-styles-biglietti.html?affiliate=ITT&doc=artistPages/tickets&fun=artist&action=tickets&kuid=536913&zanpid=2383629888403149824&zanpid=9567_1514986513_9e978bd48b1589c72b91631c6129d774" id = "tickets">TICKETS</a>
+  </p>
+  <p>
+  <a href="http://www.ticketone.it/harry-styles-biglietti.html?affiliate=ITT&doc=artistPages/tickets&fun=artist&action=tickets&kuid=536913&zanpid=2383629888403149824&zanpid=9567_1514986513_9e978bd48b1589c72b91631c6129d774" id = "tickets">TICKETS</a>
+  </p>
+  <p>
+  <a href="http://www.eventim.co.uk/tickets.html?fun=erdetail&doc=erdetaila&erid=1940345&affiliate=MAN" id = "tickets">TICKETS</a>
+  </p>
+  <p>
+  <a href="https://www.axs.com/uk/events/337630/harry-styles-tickets?skin=theo2" id = "tickets">TICKETS</a>
+  </p>
+  <p>
+  <a href="https://www.axs.com/uk/events/337631/harry-styles-tickets?skin=theo2" id = "tickets">TICKETS</a>
+  </p>
+  <p>
+  <a href="https://www1.ticketmaster.co.uk/event/360052C8C3017E80?awc=3589_1514986668_e4e93ac540da768c4d22be39dd460b20&camefrom=CFC_UK_BUYAT_97249" id = "tickets">TICKETS</a>
+  </p>
+  <p>
+  <a href="http://premier.ticketek.com.au/shows/show.aspx?sh=HARRYSTY18" id = "tickets">TICKETS</a>
+  </p>
+  
+  
+  </div>
+</div>
+
+</div>
+
+<footer>
+</footer>
+</body>
+
+</html>
