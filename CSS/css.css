@@ -436,3 +436,12 @@ width:100%;
 #checkout:hover, #checkout:active {
     background-color:#b23362;
 }
+#background{
+	background-image: url('../Assets/flowers1.jpg');
+	width:100%;
+}
+#textbox{
+	background-color:white;
+	margin:5%;
+	padding-top:20px;
+}
