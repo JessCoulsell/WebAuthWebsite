@@ -43,12 +43,14 @@
   <div id = "shopCustomiser">
   <h2 id = "shoptitle">T-Shirt Customiser</h2>
   <h3>Colour</h3>
+  <!--colour customiser buttons that call js function to change image-->
   <button type="button" id = "white" class= "colourButton" onclick="shopImage('white')" ></button>
   <button type="button" id="black" class= "colourButton" onclick="shopImage('black')"></button>
   <button type="button" id="grey" class= "colourButton" onclick="shopImage('grey')"></button>
   <button type="button" id = "pink" class= "colourButton" onclick="shopImage('pink')"></button>
 	<p id = "chosenColour"></p>
   <h3>Size</h3>
+  <!--size customiser buttons-->
   <button type="button" class = "sizeButton" onclick="size('S')">S</button>
   <button type="button" class = "sizeButton" onclick="size('M')">M</button>
   <button type="button" class = "sizeButton" onclick="size('L')">L</button>
@@ -57,6 +59,7 @@
   <p id = "chosenSize"></p>
   <h3>Price: £20</h3>
   <h3>Quantity: </h3>
+  <!--allows user to enter quantity of items required-->
   <input type="number" value="1" min="0" max="10" id = "quantity">
   <button type="button" id = "addToBag" onclick = "saveToCart()">Add To Cart</button>
   <p id ="cart"></p>
