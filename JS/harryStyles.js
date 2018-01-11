@@ -176,6 +176,7 @@ function viewCart(){
 	document.getElementById("itemColour").innerHTML =colour;
 	document.getElementById("itemSize").innerHTML =localStorage.getItem("size");
 	document.getElementById("itemQuantity").innerHTML =localStorage.getItem("quantity");
+	document.getElementById("totalCost").innerHTML ="£"+(parseInt(localStorage.getItem("quantity"))*20);
 	
 }
 function dateDelete(){
