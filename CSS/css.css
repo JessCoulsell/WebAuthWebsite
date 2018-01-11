@@ -63,6 +63,7 @@ body
 	padding:14px 10px;
 	padding-bottom:2px;
 }
+/* media query only runs this script if the screen is at least 550px*/
 @media only screen and (min-width: 550px) {
 
 h1{
@@ -403,7 +404,7 @@ width:100%;
 #countdownInfo{
 	font-size:25%;
 }
-
+/* media query only runs this script if the screen is at least 1824px*/
 @media only screen  and (min-width : 1824px) {
 	.slide{
 	width:100%;
